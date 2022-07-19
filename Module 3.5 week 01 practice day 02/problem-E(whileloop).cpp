@@ -1,18 +1,19 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
 
 int main()
 {
     int n;
-    cin >> n;
-    int count = 0;
-    for (int i = 1; i <= n; i *= 2)
+    cin>>n;
+    int count=0;
+    for(int i=1;i<=n;i*=2)
     {
-        if (i <= n)
+        if(i<=n)
         {
-            count = i;
+            count=i;
         }
     }
-    cout << count;
+    cout<<count;
     return 0;
 }
+
